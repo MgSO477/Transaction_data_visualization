@@ -20,10 +20,7 @@
 
 ## 2  Raw Data (Kaggle)
 
-| File | Rows | Original Kaggle link | Notes |
-|------|------|---------------------|-------|
-| `kaggle_customers.csv` | ≈ 2 000 | `YOUR_KAGGLE_URL_CUSTOMERS` | one row = one customer |
-| `kaggle_transactions.csv` | ≈ 1.2 M | `YOUR_KAGGLE_URL_TRANSACTIONS` | one row = one purchase |
+(https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets)
 
 Both files were placed in `/data/raw/`.
 
