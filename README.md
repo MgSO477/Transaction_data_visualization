@@ -50,7 +50,6 @@ All steps executed in **Python 3.11 + Pandas 2** (see `data_prep.ipynb`):
 | Derive `txn_year_month` | `pd.to_datetime(txn_ts).dt.to_period('M')` |
 | Remove obvious typos | keep `amount_num` **between -$100 k … +$100 k** |
 | Boolean cast | `is_fraud` → `bool` |
-| Pre-aggregate for performance | monthly net amount + count (6 M → 72 k rows) |
 
 Aggregations saved to `transactions_monthly.csv`.
 
