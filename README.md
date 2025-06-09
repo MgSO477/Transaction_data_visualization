@@ -61,7 +61,7 @@ Aggregations saved to `transactions_monthly.csv`.
 
 ### 5.1  Customer-Profile & Risk Dashboard  
 
-| 📊 Chart | How it was built (1-line logic) | What you should read out loud (business insight) |
+| 📊 Chart | How it was built | Business insight |
 |----------|---------------------------------|--------------------------------------------------|
 | **Customer Age Distribution** – stacked bars | Age binned every 5 years, split by gender | “Half of our 2 000 customers are 25-45; females lead below 30, males above 40.” |
 | **Yearly Income Statistics** – horizontal bars | Income split into \$8 k steps, again coloured by gender | “Income skews male in the \$24-40 k bracket; female share is bigger in the entry segment.” |
