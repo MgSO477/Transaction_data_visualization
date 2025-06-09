@@ -94,7 +94,7 @@ Aggregations saved to `transactions_monthly.csv`.
 
 ### 5.3 Steps 
 
-1. **Raw data** – two Kaggle CSVs (customer & transaction).  
+1. **Raw data** – 5 Kaggle CSVs.  
 2. **Clean-up** – dropped empty columns, fixed dates, capped impossible amounts (> \$1 M), added 5-year age bins & DTI buckets.  
 3. **Join** – left-joined on `client_id`; keeps customers even if they made zero recent purchases.  
 4. **Aggregations** – pre-aggregated transactions to monthly level to keep the Tableau file under 25 MB.  
