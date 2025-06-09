@@ -20,7 +20,7 @@
 
 ## 2  Raw Data (Kaggle)
 
-(https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets)
+https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets
 
 Both files were placed in `/data/raw/`.
 
